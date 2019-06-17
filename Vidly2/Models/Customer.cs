@@ -15,7 +15,7 @@ namespace Vidly2.Models
 		 Apply the Data Annotation (i.e. attribute) Required which makes our column name no longer nullable 
 		 Apply StringLength to supply the max number of characters		 
 		 */ 
-		[Required] // so now our column name is no longer nullable
+		[Required(ErrorMessage = "Please enter customer's name")] // so now our column name is no longer nullable
 		[StringLength(255)]
 		public string Name { get; set; }
 		public bool IsSubscribedToNewsletter { get; set; }
@@ -28,8 +28,12 @@ namespace Vidly2.Models
 
 		// Sometimes for optimisation we do not want to load the entire membership object and may only need to load the foreign key
 		// EF recognises this convention and treats the following property as a foreign key
+		[Display(Name = "Membership Type")]
 		public byte MembershipTypeId { get; set; }
+		// byte means it's implicitly required
 
+		[Display(Name = "Date of Birth")]
+		[Min18YearsIfAMember]
 		public DateTime? Birthdate { get; set; }
 	}
 }

@@ -17,5 +17,8 @@ namespace Vidly2.Models
 
 		[Required]
 		public string MembershipTypeName { get; set; }
+
+		public static readonly byte Unknown = 0;
+		public static readonly byte PayAsYouGo = 1;
 	}
 }
