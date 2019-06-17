@@ -130,3 +130,4 @@ C:\Users\lucyq\source\repos\Vidly2\Vidly2\bin\System.Web.Http.xml
 C:\Users\lucyq\source\repos\Vidly2\Vidly2\bin\System.Web.Http.WebHost.xml
 C:\Users\lucyq\source\repos\Vidly2\Vidly2\bin\AutoMapper.dll
 C:\Users\lucyq\source\repos\Vidly2\Vidly2\bin\AutoMapper.xml
+C:\Users\lucyq\source\repos\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.ChangeMovieIdToByte.resources

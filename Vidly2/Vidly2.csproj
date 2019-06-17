@@ -193,6 +193,8 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
+    <Compile Include="Dtos\GenreDto.cs" />
+    <Compile Include="Dtos\MembershipTypeDto.cs" />
     <Compile Include="Dtos\MovieDto.cs" />
     <Compile Include="Dtos\CustomerDto.cs" />
     <Compile Include="Global.asax.cs">
@@ -269,6 +271,10 @@
     <Compile Include="Migrations\201906161447027_ChangeNumberInStockToByte.cs" />
     <Compile Include="Migrations\201906161447027_ChangeNumberInStockToByte.Designer.cs">
       <DependentUpon>201906161447027_ChangeNumberInStockToByte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906171515290_ChangeMovieIdToByte.cs" />
+    <Compile Include="Migrations\201906171515290_ChangeMovieIdToByte.Designer.cs">
+      <DependentUpon>201906171515290_ChangeMovieIdToByte.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -627,6 +633,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201906161447027_ChangeNumberInStockToByte.resx">
       <DependentUpon>201906161447027_ChangeNumberInStockToByte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906171515290_ChangeMovieIdToByte.resx">
+      <DependentUpon>201906171515290_ChangeMovieIdToByte.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
