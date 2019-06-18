@@ -131,3 +131,14 @@ C:\Users\lucyq\source\repos\Vidly2\Vidly2\bin\System.Web.Http.WebHost.xml
 C:\Users\lucyq\source\repos\Vidly2\Vidly2\bin\AutoMapper.dll
 C:\Users\lucyq\source\repos\Vidly2\Vidly2\bin\AutoMapper.xml
 C:\Users\lucyq\source\repos\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.ChangeMovieIdToByte.resources
+C:\Users\lucyq\source\repos\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.SeedUsers.resources
+C:\Users\lucyq\source\repos\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Users\lucyq\source\repos\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.AddPhoneToApplicationUser.resources
+C:\Users\lucyq\source\repos\Vidly2\Vidly2\bin\Glimpse.Ado.dll
+C:\Users\lucyq\source\repos\Vidly2\Vidly2\bin\Glimpse.AspNet.dll
+C:\Users\lucyq\source\repos\Vidly2\Vidly2\bin\Glimpse.Core.dll
+C:\Users\lucyq\source\repos\Vidly2\Vidly2\bin\Glimpse.EF6.dll
+C:\Users\lucyq\source\repos\Vidly2\Vidly2\bin\Glimpse.Mvc5.dll
+C:\Users\lucyq\source\repos\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.AddRental.resources
+C:\Users\lucyq\source\repos\Vidly2\Vidly2\obj\Debug\Vidly2.Migrations.AddNumberAvailableToMovie.resources
+C:\Users\lucyq\source\repos\Vidly2\Vidly2\obj\Debug\Vidly2.csprojAssemblyReference.cache
